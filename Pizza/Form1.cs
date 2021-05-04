@@ -13,7 +13,7 @@ namespace Pizza
    
     public partial class Form1 : Form
     {
-        //string firstName = inputBox.Text;
+        //global variables
         double Pizza = 7.00;
         double topping = 1.25;
         double toppingAmount = 0;
@@ -31,7 +31,7 @@ namespace Pizza
 
         private void inputBox_TextChanged(object sender, EventArgs e)
         {
-           // string firstName = inputBox.Text;
+          
         }
 
         private void button1_Click(object sender, EventArgs e)
